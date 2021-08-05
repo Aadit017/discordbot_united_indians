@@ -1,4 +1,4 @@
-require('node_modules/dotenv').config()
+require('../node_modules/dotenv').config()
 const fetch = require('node-fetch')
 const {MessageCollector, Client , MessageEmbed, MessageAttachment} = require("discord.js");
 const getEmojis  = require('discordjs-getemojis');
